@@ -10,5 +10,8 @@ namespace final_project
         }
 
         static void Imprimir(string message) => Console.WriteLine(message);
+        static string leer() => Console.ReadLine();
+
+      
     }
 }
