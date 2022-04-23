@@ -6,8 +6,9 @@ namespace final_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello!");
         }
+
+        static void Imprimir(string message) => Console.WriteLine(message);
     }
 }
